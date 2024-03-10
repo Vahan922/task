@@ -1,6 +1,6 @@
-package com.example.task.repository;
+package com.example.task.dao.repository;
 
-import com.example.task.model.Message;
+import com.example.task.dao.model.Message;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

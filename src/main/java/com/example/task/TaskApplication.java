@@ -1,8 +1,8 @@
 package com.example.task;
 
 
-import com.example.task.model.Message;
-import com.example.task.repository.MessageRepository;
+import com.example.task.dao.model.Message;
+import com.example.task.dao.repository.MessageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

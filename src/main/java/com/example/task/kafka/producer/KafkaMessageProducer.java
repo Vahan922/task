@@ -12,7 +12,7 @@ public class KafkaMessageProducer {
 
     private final KafkaTemplate<String, String> kafkaTemplate;
 
-    public KafkaMessageProducer(KafkaTemplate<String, String> kafkaTemplate) {
+    public KafkaMessageProducer(final KafkaTemplate<String, String> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
     }
 

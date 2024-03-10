@@ -3,7 +3,7 @@ package com.example.task.mapper;
 import com.example.task.controller.request.MessageFilterDto;
 import com.example.task.controller.request.MessageRequestDto;
 import com.example.task.controller.response.MessageDto;
-import com.example.task.model.Message;
+import com.example.task.dao.model.Message;
 import com.example.task.service.request.MessageFilter;
 import com.example.task.service.request.MessageRequest;
 import org.springframework.stereotype.Component;

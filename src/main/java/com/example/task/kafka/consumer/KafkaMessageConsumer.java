@@ -37,7 +37,7 @@ public class KafkaMessageConsumer {
         log.info("Done consuming message: {}.", message);
     }
 
-    private static MessageRequest accumulateMessageRequest(MessageKafkaRequest kafkaRequest) {
+    private static MessageRequest accumulateMessageRequest(final MessageKafkaRequest kafkaRequest) {
         return new MessageRequest(
                 kafkaRequest.getName(),
                 kafkaRequest.getSurname(),

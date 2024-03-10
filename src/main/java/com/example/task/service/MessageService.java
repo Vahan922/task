@@ -1,8 +1,8 @@
 package com.example.task.service;
 
+import com.example.task.dao.model.Message;
+import com.example.task.dao.repository.MessageRepository;
 import com.example.task.kafka.producer.KafkaMessageProducer;
-import com.example.task.model.Message;
-import com.example.task.repository.MessageRepository;
 import com.example.task.service.request.MessageFilter;
 import com.example.task.service.request.MessageRequest;
 import com.example.task.service.response.PageResponse;

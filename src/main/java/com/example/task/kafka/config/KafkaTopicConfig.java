@@ -9,15 +9,9 @@ import org.springframework.kafka.config.TopicBuilder;
 public class KafkaTopicConfig {
 
     public static final String MESSAGE = "message";
-    public static final String VAHAN = "vahan";
 
     @Bean
     public NewTopic messageTopic() {
         return TopicBuilder.name(MESSAGE).build();
-    }
-
-    @Bean
-    public NewTopic vahanTopic() {
-        return TopicBuilder.name(VAHAN).build();
     }
 }
